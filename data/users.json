@@ -1,18 +1,13 @@
 [
-    { "id": 1, "name": "Anisha" },
-    { "id": 2, "name": "Ben" },
-    { "id": 3, "name": "Siddique" },
-    { "id": 4, "name": "Faizan" },
-    { "id": 5, "name": "Shakeel" },
-    { "id": 6, "name": "Shahid" },
+    { "id": 1, "name": "Anne" },
+    { "id": 2, "name": "Ben" },    { "id": 3, "name": "Danny" },
+    { "id": 4, "name": "Chris" },
+    { "id": 5, "name": "Eric" },
+    { "id": 6, "name": "Helen" },
     { "id": 7, "name": "Mohamed" },
-    { "id": 8, "name": "Ram" },
-    { "id": 9, "name": "Sita" },
-    { "id": 10, "name": "Suresh" },
-    { "id": 11, "name": "Ramesh" },
-    { "id": 12, "name": "Shilpa" },
-    { "id": 13, "name": "Merlin" },
-    { "id": 14, "name": "Mercy" },
-    { "id": 15, "name": "Grace" }
+    { "id": 8, "name": "John" },
+    { "id": 9, "name": "Karl" },
+    { "id": 10, "name": "Louis" }
+   
   ]
   
