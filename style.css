@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #57b9ff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .post {
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post h3 {
+    margin-bottom: 5px;
+  }
+  
+  .post p {
+    margin-bottom: 10px;
+  }
+  
+  .comment {
+    display:block;
+    background-color: #eaf1f6;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding:15px;
+    border-radius: 5px;
+  }
+  .comments-block{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .view-comments-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adds spacing between the button text and the icon */
+    padding: 10px 15px;
+    background-color: #57b9ff; /* Matches the header color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+  }
+  
+  .view-comments-btn:hover {
+   
+    transform: translateY(-2px);
+  }
+  
+  
+  .comments-icon {
+    font-size: 16px;
+    color: white; /* Ensures the icon color matches the button text */
+  }
+  .comment h5 {
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  @media (max-width: 600px) {
+    .post-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .avatar {
+      margin-bottom: 10px;
+    }
+  }
+  
